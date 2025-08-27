@@ -1,68 +1,113 @@
+/* ===================================== */
+/* ESTILOS ESPECÍFICOS DE ADMINISTRACIÓN */
+/* ===================================== */
+body {
+    background-image: url('../Imágenes/ciudad/ciudad7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+     min-height: 100vh; /* asegúrate de que ocupa toda la altura visible */
+    font-family: Arial, sans-serif;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Transición para un efecto suave en color, tamaño, fondo y sombra */
+}
 
-.services ul {
+/* Efecto hover del menú */
+nav a:hover {
+    color: #333;
+    background-color: rgba(224, 224, 224, 0.8); /* Fondo gris con transparencia */
+    transform: translateY(-8px); /* Mover el elemento 3px hacia arriba */
+    padding: 5px 15px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Sombra para efecto de elevación */
+}
+
+.services-section {
+    padding: 50px 20px;
+    background-color: rgba(26, 42, 57, 0.8);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.services-section h2 {
+    font-size: 3rem;
+    color: rgb(248, 242, 242);
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.services-grid {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 30px;
 }
 
-.services h2 {
-    display: flex;
-    justify-content: center;
-    font-size: 72px;
-    color: rgb(248, 242, 242);
-    margin-bottom: 20px;
-    text-shadow: 4px 4px 8px rgba(10, 20, 20, 20.4); /* Sombra para los títulos h2 y h3 */
-}
-
-.services ul li {
+.services-grid li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
     padding: 20px;
     width: 300px;
-    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/* bordes no bisible sacar --mpara que se vea*/
     background-color: transparent;
-    --border: 1px solid #ddd;/* bordes no bisible sacar --mpara que se vea*/
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.services ul li strong {
-    display: flex;
-    font-size: 24px;
-    justify-content: center;
-    color: rgb(22, 21, 21);
+.services-grid li:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.services ul li img {
-    width: 250px;
-    height: 250px;
+.services-grid li strong {
+    font-size: 1.5rem;
+    color: #ffd700;
+    text-align: center;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
+}
+
+.services-grid li img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
-.services ul li img:hover {
-    transform: scale(1.4);
+.services-grid li img:hover {
+    transform: scale(1.1);
 }
 
-.services ul li div {
-    text-align: justify;
-}
-
-.services ul li ul {
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style: disc;
+.services-grid li .service-description {
     text-align: left;
+    color: #f0f0f0;
 }
 
-.services ul li ul li {
-    margin: 5px 0;
-    font-size: 20px;
-    color: rgb(253, 252, 252);
+.services-grid li .service-description ul {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    list-style: disc;
+    font-size: 1rem;
+    line-height: 1.4;
 }
 
+/* ======================================= */
+/* MEDIA QUERIES PARA RESPONSIVE DESIGN    */
+/* ======================================= */
+@media (max-width: 768px) {
+    .services-grid li {
+        width: 100%;
+    }
+}

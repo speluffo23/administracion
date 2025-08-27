@@ -1,0 +1,252 @@
+/* ===================================== */
+/* ESTILOS COMPARTIDOS                  */
+/* ===================================== */
+body {
+    background-image: url('../Imágenes/ciudad/ciudad8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Mantiene la imagen de fondo fija al hacer scroll */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.main-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Header --- */
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between; /* Mantener los elementos en los extremos */
+    align-items: center;
+    gap: 10px; /* Aumenta este valor para más separación */
+    flex-wrap: wrap;
+}
+
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* --- Menú de Navegación --- */
+.menu-container {
+    background-color: #c2c1c7;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px; /* Espacio entre los elementos del menú */
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem; /* Tamaño de fuente más estándar */
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #333;
+    background-color: rgba(224, 224, 224, 0.8);
+    transform: translateY(-8px);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #1a2a39;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #005f73;
+}
+
+/* ===================================== */
+/* ESTILOS ESPECÍFICOS PARA LEGALES     */
+/* ===================================== */
+
+/* Fondo específico para la página de legales */
+body.legales-page {
+    background-image: url('../Imágenes/ciudad/gestoria.png');
+    background-color: #0d1a26;
+    color: white;
+}
+
+/* Héroe de la página de legales */
+.hero.legales-hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #8c9fb1c7;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.hero.legales-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero.legales-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Sección de servicios de legales */
+.services.legales-services {
+    background-color: #1a2a26;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.services.legales-services h2,
+.services.legales-services h3 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.services.legales-services p {
+    color: rgb(248, 246, 246);
+    line-height: 1.6;
+    text-align: center;
+}
+
+.legal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.legal-content {
+    flex: 1;
+    color: rgb(236, 232, 232);
+    text-align: left;
+    max-width: 600px;
+}
+
+.legal-content h2,
+.legal-content h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.legal-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+.legal-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.legal-services {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.legal-services li {
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 15px;
+    color: rgb(248, 246, 246);
+    font-size: 1.1rem;
+}
+
+.legal-services li .fas {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #ffd700;
+    font-size: 1.2em;
+}
+
+/* Sección de Llamada a la acción (CTA) */
+.cta {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.cta h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+/* ======================================= */
+/* Media Queries para Responsive Design  */
+/* ======================================= */
+@media (max-width: 768px) {
+    .menu-container nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-container nav li {
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .legal-container {
+        flex-direction: column;
+    }
+}

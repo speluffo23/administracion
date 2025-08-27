@@ -1,3 +1,30 @@
+body {
+    background-image: url('../Imágenes/ciudad/gestoria.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+     min-height: 100vh; /* asegúrate de que ocupa toda la altura visible */
+    font-family: Arial, sans-serif;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease; /* Transición para un efecto suave en color, tamaño, fondo y sombra */
+}
+
+/* Efecto hover del menú */
+nav a:hover {
+    color: #333;
+    background-color: rgba(224, 224, 224, 0.8); /* Fondo gris con transparencia */
+    transform: translateY(-8px); /* Mover el elemento 3px hacia arriba */
+    padding: 5px 15px; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Sombra para efecto de elevación */
+}
+
 .services {
     max-width: 1200px;
     margin: auto;

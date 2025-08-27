@@ -1,35 +1,43 @@
 /* contact.css */
+
 /* Estilos específicos para la página de contacto */
+
+body {
+    background-image: url('../Imágenes/ciudad/ciudad8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
 
 .contact-info {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
-    text-align: center; /* Centra el texto dentro de la sección */
+    text-align: center;
 }
 
 .centered-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Centra el contenido del texto dentro del contenedor */
+    text-align: center;
 }
-
 
 .centered-content ul {
     list-style: none;
     padding: 0;
-    margin: 20px 0 0 0; /* Añadir margen superior para separar la lista del contenido anterior */
+    margin: 20px 0 0 0;
 }
 
 .centered-content ul li {
-    margin: 5px 0; /* Añadir margen inferior entre los elementos de la lista */
+    margin: 5px 0;
 }
 
 .contact-info h1, .contact-info h2 {
     color: #f6f8f2;
 }
-
 
 .contact-info p, .contact-info li {
     font-size: 18px;
@@ -40,10 +48,9 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 20px; /* Añade un espacio entre los elementos */
+    gap: 20px;
     margin: 20px 0;
 }
-
 
 .contact-icon {
     display: flex;
@@ -56,11 +63,11 @@
 .contact-icon img {
     width: 90px;
     margin-right: 10px;
-    transition: transform 0.3s ease; /* Suaviza la transición */
+    transition: transform 0.3s ease;
 }
 
 .contact-icon img:hover {
-    transform: scale(1.3); /* Agranda la imagen a 130% de su tamaño original */
+    transform: scale(1.3);
 }
 
 .qr-section {
@@ -81,11 +88,11 @@
 .qr-item img {
     width: 100px;
     height: 100px;
-    transition: transform 0.3s ease; /* Suaviza la transición */
+    transition: transform 0.3s ease;
 }
 
 .qr-item img:hover {
-    transform: scale(2.6); /* Agranda la imagen a 260% de su tamaño original */
+    transform: scale(2.6);
 }
 
 .map {
