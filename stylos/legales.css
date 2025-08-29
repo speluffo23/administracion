@@ -1,162 +1,65 @@
 /* ===================================== */
-/* ESTILOS COMPARTIDOS                  */
-/* ===================================== */
-body {
-    background-image: url('../Imágenes/ciudad/ciudad8.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed; /* Mantiene la imagen de fondo fija al hacer scroll */
-    margin: 0;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
-}
-
-.main-container {
-    background-color: rgba(0, 0, 0, 0.6);
-    min-height: 100vh;
-}
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* --- Header --- */
-header {
-    background-color: transparent;
-    color: white;
-    padding: 1.5rem 0;
-}
-
-header .container {
-    display: flex;
-    justify-content: space-between; /* Mantener los elementos en los extremos */
-    align-items: center;
-    gap: 10px; /* Aumenta este valor para más separación */
-    flex-wrap: wrap;
-}
-
-
-.logo {
-    width: 250px;
-    height: auto;
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-}
-
-/* --- Menú de Navegación --- */
-.menu-container {
-    background-color: #c2c1c7;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    margin-left: 50px;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 25px; /* Espacio entre los elementos del menú */
-}
-
-nav a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.5rem; /* Tamaño de fuente más estándar */
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-}
-
-nav a:hover {
-    color: #333;
-    background-color: rgba(224, 224, 224, 0.8);
-    transform: translateY(-8px);
-    padding: 5px 15px;
-    border-radius: 5px;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* --- Footer --- */
-footer {
-    background-color: #1a2a39;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    border-top: 2px solid #005f73;
-}
-
-/* ===================================== */
-/* ESTILOS ESPECÍFICOS PARA LEGALES     */
+/* ESTILOS ESPECÍFICOS PARA LEGALES      */
 /* ===================================== */
 
-/* Fondo específico para la página de legales */
-body.legales-page {
-    background-image: url('../Imágenes/ciudad/gestoria.png');
+/* Fondo general de la página */
+.legales-page {
+    background-image: url('../Imágenes/ciudad/facderecho.png');
     background-color: #0d1a26;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
-/* Héroe de la página de legales */
+/* Estilos de la sección hero */
 .hero.legales-hero {
     text-align: center;
-    padding: 4rem 0;
-    background-color: #8c9fb1c7;
+    padding: 4rem 20px;
+    background-color: rgba(26, 42, 57, 0.8);
     border-radius: 10px;
-    margin-bottom: 2rem;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero.legales-hero h1 {
     font-size: 2.5rem;
+    color: #ffd700; /* Color de acento */
     margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .hero.legales-hero p {
     font-size: 1.2rem;
     max-width: 800px;
     margin: 0 auto;
+    color: #f0f0f0; /* Color de texto claro */
 }
 
-/* Sección de servicios de legales */
+/* Estilos de la sección de servicios */
 .services.legales-services {
-    background-color: #1a2a26;
-    padding: 2rem;
-    margin-bottom: 2rem;
+    background-color: transparent;
+    padding: 0;
+    margin-top: 40px;
     border-radius: 10px;
 }
 
-.services.legales-services h2,
-.services.legales-services h3 {
-    color: #4CAF50;
-    text-align: center;
-    margin-bottom: 1.5rem;
-    font-size: 2rem;
-}
-
-.services.legales-services p {
-    color: rgb(248, 246, 246);
-    line-height: 1.6;
-    text-align: center;
-}
-
+/* Contenedor principal de contenido legal */
 .legal-container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
     flex-wrap: wrap;
+    background-color: rgba(26, 42, 57, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .legal-content {
     flex: 1;
-    color: rgb(236, 232, 232);
+    color: #f0f0f0; /* Color de texto claro */
     text-align: left;
     max-width: 600px;
 }
@@ -164,7 +67,14 @@ body.legales-page {
 .legal-content h2,
 .legal-content h3 {
     text-align: center;
-    color: #4CAF50;
+    color: #ffd700; /* Color de acento */
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.legal-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .legal-image {
@@ -179,9 +89,10 @@ body.legales-page {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
 }
 
+/* Estilos de la lista de servicios */
 .legal-services {
     list-style-type: none;
     padding: 0;
@@ -192,7 +103,7 @@ body.legales-page {
     padding-left: 35px;
     position: relative;
     margin-bottom: 15px;
-    color: rgb(248, 246, 246);
+    color: #f0f0f0;
     font-size: 1.1rem;
 }
 
@@ -200,52 +111,48 @@ body.legales-page {
     position: absolute;
     left: 0;
     top: 2px;
-    color: #ffd700;
+    color: #ffd700; /* Color de acento para los íconos */
     font-size: 1.2em;
 }
 
 /* Sección de Llamada a la acción (CTA) */
 .cta {
-    background-color: #005f73;
+    background-color: transparent;
     color: white;
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
+    margin-top: 40px;
+}
+
+.cta .container {
+    background-color: rgba(26, 42, 57, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .cta h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #ffd700; /* Color de acento */
 }
 
 .cta a {
-    color: white;
+    color: #ffd700;
     text-decoration: none;
     font-weight: bold;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ffd700;
+    transition: color 0.3s ease;
 }
 
-/* ======================================= */
-/* Media Queries para Responsive Design  */
-/* ======================================= */
+.cta a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* Media Queries para Responsive Design */
 @media (max-width: 768px) {
-    .menu-container nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .menu-container nav li {
-        margin: 10px 0;
-    }
-
-    .hero h1 {
-        font-size: 28px;
-    }
-
-    .hero p {
-        font-size: 20px;
-    }
-
     .legal-container {
         flex-direction: column;
     }

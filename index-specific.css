@@ -1,0 +1,117 @@
+/* index-specific.css */
+/* Estilos adicionales para la página de inicio */
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    color: #c2c1c7;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #e7dada;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #005f73;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0087a3;
+    transform: scale(1.05);
+}
+
+/* Estilos para el grid de métodos de pago */
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.payment-method {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.payment-method img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.payment-method:hover {
+    transform: translateY(-5px);
+}
+
+/* --- Métodos de Pago --- */
+.payment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Espacio entre los ítems de pago */
+    margin-top: 40px;
+}
+
+.payment-item {
+    display: flex;
+    flex-direction: column; /* Organiza imagen y texto en columna */
+    align-items: center;    /* Centra horizontalmente imagen y texto */
+    text-align: center;
+    max-width: 150px; /* Ancho máximo para cada ítem */
+}
+
+.payment-item img {
+    width: 100px; /* Tamaño del icono */
+    height: 100px;
+    object-fit: contain; /* Asegura que la imagen se ajuste sin distorsionarse */
+    transition: transform 0.3s ease;
+}
+
+.payment-item img:hover {
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
+.payment-item p {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    color: white; /* Color del texto en blanco */
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -6,27 +6,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-     min-height: 100vh; /* asegúrate de que ocupa toda la altura visible */
+    min-height: 100vh;
     font-family: Arial, sans-serif;
 }
-nav a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 0.3s ease; /* Transición para un efecto suave en color, tamaño, fondo y sombra */
-}
-
-/* Efecto hover del menú */
-nav a:hover {
-    color: #333;
-    background-color: rgba(224, 224, 224, 0.8); /* Fondo gris con transparencia */
-    transform: translateY(-8px); /* Mover el elemento 3px hacia arriba */
-    padding: 5px 15px; /* Espacio alrededor del texto */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3); /* Sombra para efecto de elevación */
-}
+/* Tu código para el menú de navegación... */
 
 .services-section {
     padding: 50px 20px;
@@ -44,70 +27,131 @@ nav a:hover {
 }
 
 .services-grid {
-    list-style: none;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    list-style: none; /* Elimina los puntos de la lista */
+    padding: 0;
 }
 
-.services-grid li {
+.service-item {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Coloca la imagen y el texto uno debajo del otro */
+    align-items: center; /* Centra el contenido horizontalmente */
+    width: 250px; /* Ancho de la tarjeta del servicio */
     padding: 20px;
-    width: 300px;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo transparente para el ítem */
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.services-grid li:hover {
-    transform: scale(1.05);
-    background-color: rgba(255, 255, 255, 0.1);
+.service-item:hover {
+    transform: scale(1.05); /* Escala la tarjeta completa */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-.services-grid li strong {
-    font-size: 1.5rem;
-    color: #ffd700;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.services-grid li img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 15px;
-    border-radius: 8px;
+.service-item img {
+    width: 120px; /* Tamaño del ícono */
+    height: 120px;
+    object-fit: contain; /* Ajusta la imagen sin cortarla */
+    margin-bottom: 10px;
     transition: transform 0.3s ease;
 }
 
-.services-grid li img:hover {
+.service-item img:hover {
     transform: scale(1.1);
 }
 
-.services-grid li .service-description {
-    text-align: left;
-    color: #f0f0f0;
+.service-item strong {
+    font-size: 1.5rem;
+    color: #ffd700;
+    text-align: center;
 }
 
-.services-grid li .service-description ul {
-    margin: 10px 0 0 0;
-    padding-left: 20px;
-    list-style: disc;
-    font-size: 1rem;
-    line-height: 1.4;
+/* --- Modal Styles --- */
+.modal {
+    display: none; /* Oculta el modal por defecto */
+    position: fixed; /* Lo fija en la pantalla */
+    z-index: 1; /* Se superpone a todo */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    padding-top: 60px;
 }
 
-/* ======================================= */
-/* MEDIA QUERIES PARA RESPONSIVE DESIGN    */
-/* ======================================= */
-@media (max-width: 768px) {
-    .services-grid li {
-        width: 100%;
-    }
+.modal-content {
+    background-color: #1a2a39; /* Color de fondo del footer */
+    margin: 5% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    color: white;
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Opcional: Estilo para el botón "Ver más" */
+.open-modal-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #1a2a39;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.open-modal-btn:hover {
+    background-color: #e0b400;
+}
+
+/* ===================================== */
+/* ESTILOS ESPECÍFICOS DE ADMINISTRACIÓN */
+/* ===================================== */
+
+/* ... (tu código existente para body, nav, etc.) ... */
+
+.hero {
+    padding: 80px 20px; /* Aumenta el espacio interno para que la sección respire */
+    background-color: rgba(26, 42, 57, 0.7); /* Fondo semitransparente oscuro, unifica el estilo */
+    text-align: center; /* Centra todo el contenido de la sección */
+    border-radius: 10px; /* Bordes redondeados para un look moderno */
+    margin-top: 40px; /* Espacio entre el header y esta sección */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Una sutil sombra para darle profundidad */
+}
+
+.hero h1 {
+    font-size: 3.5rem; /* Título más grande y llamativo */
+    color: #eeede5; /* Color dorado para el título, como en los servicios */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #f0f0f0; /* Color blanco suave para el texto, más legible */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+    margin-bottom: 15px; /* Espacio entre los párrafos */
 }

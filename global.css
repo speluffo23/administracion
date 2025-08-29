@@ -3,6 +3,7 @@
 /* ==================================== */
 body {
     background-image: url('Imágenes/ciudad/ciudad6.png');
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad6.png'); /* Ajusta el 0.3 para más o menos claridad */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -14,7 +15,9 @@ body {
 
 /* Contenedor principal que abarca todo el contenido */
 .main-container {
-    background-color: rgba(0, 0, 0, 0.3); /* Cambiado de 0.6 a 0.3 */
+   /*  background-color: rgba(0, 0, 0, 0.3); /* Cambiado de 0.6 a 0.3 */
+        /* Aquí eliminamos el background-color, o lo ponemos totalmente transparente si quieres */
+    background-color: transparent; /* O puedes ajustarlo si todavía quieres un leve oscurecimiento adicional */
     min-height: 100vh;
 }
 
@@ -40,7 +43,7 @@ header .container {
 }
 
 .logo {
-    width: 200px;
+    width: 250px;
 }
 
 .logo img {
@@ -135,6 +138,41 @@ footer {
     text-align: center;
     padding: 1rem 0;
     border-top: 2px solid #005f73;
+}
+
+/* --- Métodos de Pago --- */
+.payment-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Espacio entre los ítems de pago */
+    margin-top: 40px;
+}
+
+.payment-item {
+    display: flex;
+    flex-direction: column; /* Organiza imagen y texto en columna */
+    align-items: center;    /* Centra horizontalmente imagen y texto */
+    text-align: center;
+    max-width: 150px; /* Ancho máximo para cada ítem */
+}
+
+.payment-item img {
+    width: 100px; /* Tamaño del icono */
+    height: 100px;
+    object-fit: contain; /* Asegura que la imagen se ajuste sin distorsionarse */
+    transition: transform 0.3s ease;
+}
+
+.payment-item img:hover {
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
+.payment-item p {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    color: white; /* Color del texto en blanco */
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 /* ======================================= */
