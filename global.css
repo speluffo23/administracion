@@ -150,20 +150,18 @@ nav a:hover {
 footer {
     background-color: #1a2a39;
     color: white;
-    text-align: center; /* Centrar el contenido general del footer */
-    padding: 1rem 0;
+    padding: 2rem 0; /* Aumenta el padding para más espacio arriba y abajo */
     border-top: 2px solid #005f73;
-    display: flex; /* Usar flexbox para organizar el contenido */
-    justify-content: center; /* Centrar el .container */
-    align-items: center;
+    text-align: center; /* Centra el texto y los elementos en bloque */
 }
 
 footer .container {
-    display: flex; /* Contenedor interno del footer para flexbox */
-    flex-direction: column; /* Por defecto, los elementos van en columna */
-    align-items: flex-start; /* Alinear el contenido a la izquierda dentro del container */
-    width: 90%; /* Mantener el ancho del contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos flexibles horizontalmente */
+    width: 90%;
     max-width: 1200px;
+    margin: 0 auto; /* Centra el contenedor principal */
 }
 
 .footer-content {
@@ -176,9 +174,9 @@ footer .container {
 
 /* Estilo para el logo en el pie de página */
 .footer-logo img {
-    width: 80px; /* Tamaño del logo más pequeño */
+    width: 80px; /* Tamaño del logo */
     height: auto;
-    margin-right: 20px; /* Espacio a la derecha del logo si está en la misma línea */
+    margin-bottom: 20px; /* Espacio debajo del logo */
 }
 
 /* Para alinear el logo a la izquierda (aunque con flex-direction: column ya estaría) */
@@ -191,12 +189,16 @@ footer .container {
     text-align: left; /* Asegurar que el texto se alinee a la izquierda */
 }
 
+.footer-info p {
+    margin: 5px 0; /* Espacio entre las líneas de texto */
+}
+
 .footer-links {
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+    gap: 15px; /* Espacio entre los enlaces */
     margin-bottom: 10px;
-    display: flex; /* Para que los links estén en línea */
-    gap: 15px; /* Espacio entre los links del footer */
-    flex-wrap: wrap; /* Para que los links se ajusten en móviles */
-    justify-content: flex-start; /* Alinear los links a la izquierda */
+    flex-wrap: wrap;
 }
 
 .footer-links a {
