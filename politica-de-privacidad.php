@@ -35,8 +35,12 @@
             </section>
         </main>
     </div>
-    <footer>
-        <div class="container">
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <img src="Imágenes/logo2.png" alt="Logo de la Empresa">
+        </div>
+        <div class="footer-info">
             <div class="footer-links">
                 <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
                 <a href="politica-de-privacidad.php">Política de Privacidad</a>
@@ -45,6 +49,7 @@
             <p>&copy; 2025 Administración de Consorcio. Todos los derechos reservados.</p>
             <p>Teléfono: 1154612133 | Correo electrónico: jaquesus2016@gmail.com</p>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>
