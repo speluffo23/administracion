@@ -12,26 +12,6 @@
 </head>
 <body>
     <div class="main-container">
-        <header>
-            <div class="container">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="Imágenes/logo2.png" alt="Logo">
-                    </a>
-                </div>
-                <div class="menu-container">
-                    <nav>
-                        <ul>
-                            <li><a href="index.php">Inicio</a></li>
-                            <li><a href="administracion.php">Administración</a></li>
-                            <li><a href="mandatario.php">Mandatario</a></li>
-                            <li><a href="contact.php">Contactos</a></li>
-                            <li><a href="legales.php">Legales</a></li>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
         <main>
             <section class="hero">
                 <div class="container">
