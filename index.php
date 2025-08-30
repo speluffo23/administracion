@@ -102,13 +102,12 @@
             </section>
         </main>
     </div>
-
 <footer>
     <div class="container">
-        <div class="footer-logo">
+        <div class="footer-logo-container">
             <img src="Imágenes/logo2.png" alt="Logo de la Empresa">
         </div>
-        <div class="footer-info">
+        <div class="footer-info-container">
             <div class="footer-links">
                 <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
                 <a href="politica-de-privacidad.php">Política de Privacidad</a>

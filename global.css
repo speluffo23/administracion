@@ -3,7 +3,6 @@
 /* ==================================== */
 body {
     background-image: url('Imágenes/ciudad/ciudad6.png');
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../Imágenes/ciudad/ciudad6.png'); /* Ajusta el 0.3 para más o menos claridad */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,11 +12,8 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor principal que abarca todo el contenido */
 .main-container {
-   /*  background-color: rgba(0, 0, 0, 0.3); /* Cambiado de 0.6 a 0.3 */
-        /* Aquí eliminamos el background-color, o lo ponemos totalmente transparente si quieres */
-    background-color: transparent; /* O puedes ajustarlo si todavía quieres un leve oscurecimiento adicional */
+    background-color: transparent;
     min-height: 100vh;
 }
 
@@ -36,9 +32,9 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between; /* Mantener los elementos en los extremos */
+    justify-content: space-between;
     align-items: center;
-    gap: 10px; /* Aumenta este valor para más separación */
+    gap: 10px;
     flex-wrap: wrap;
 }
 
@@ -57,7 +53,7 @@ header .container {
     padding: 10px 0;
     width: 100%;
     text-align: center;
-    margin-left: 50px; /* Aumenta el margen para separar el menú del logo */
+    margin-left: 50px;
 }
 
 nav ul {
@@ -78,7 +74,7 @@ nav ul li a {
 /* Estilo para la página activa */
 nav ul li.active a {
     color: #fff;
-    background-color: #007bff; /* Un color que haga que el link resalte */
+    background-color: #007bff;
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -121,82 +117,74 @@ nav a:hover {
 }
 
 /* --- Métodos de Pago --- */
-.payment-methods {
+.payment-options {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 40px;
 }
 
-.payment-method {
+.payment-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    max-width: 150px;
 }
 
-.payment-method img {
-    width: 80px;
-    height: auto;
+.payment-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 
-.payment-method img:hover {
+.payment-item img:hover {
     transform: scale(1.1);
 }
 
-/* --- Footer --- */
+.payment-item p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 /* --- Footer --- */
 footer {
     background-color: #1a2a39;
     color: white;
-    padding: 2rem 0; /* Aumenta el padding para más espacio arriba y abajo */
+    padding: 2rem 0;
     border-top: 2px solid #005f73;
-    text-align: center; /* Centra el texto y los elementos en bloque */
 }
 
 footer .container {
     display: flex;
-    flex-direction: row;
-    align-items: center; /* Centra los elementos flexibles horizontalmente */
+    align-items: center;
+    justify-content: space-between;
     width: 90%;
     max-width: 1200px;
-   justify-content: space-between; /* Centra el contenedor principal */
+    margin: 0 auto;
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: column; /* Por defecto, logo y enlaces/info en columna */
-    align-items: flex-start; /* Alinear todo a la izquierda */
-    width: 100%;
-    gap: 20px; /* Espacio entre el logo y la información */
+.footer-logo-container {
+    width: 100px; /* Cambia este valor para ajustar el espacio */
 }
 
-/* Estilo para el logo en el pie de página */
-.footer-logo img {
-    width: 80px; /* Tamaño del logo */
+.footer-logo-container img {
+    width: 50px; /* Puedes cambiar este valor por uno más grande o pequeño */
     height: auto;
-    margin-bottom: 30px; /* Espacio debajo del logo */
 }
 
-/* Para alinear el logo a la izquierda (aunque con flex-direction: column ya estaría) */
-.footer-logo.left-aligned {
-    text-align: left;
-    width: auto; /* Ajustar el ancho del contenedor del logo */
-}
-
-.footer-info {
-    text-align: left; /* Asegurar que el texto se alinee a la izquierda */
-}
-
-.footer-info p {
-    margin: 5px 0; /* Espacio entre las líneas de texto */
+.footer-info-container {
+    text-align: right;
 }
 
 .footer-links {
     display: flex;
-    justify-content: center; /* Centra los enlaces */
-    gap: 15px; /* Espacio entre los enlaces */
+    justify-content: flex-end;
+    gap: 15px;
     margin-bottom: 10px;
     flex-wrap: wrap;
 }
@@ -211,59 +199,9 @@ footer .container {
     text-decoration: underline;
 }
 
-/* Media Query para pantallas más grandes: Logo a la izquierda, información a la derecha */
-@media (min-width: 768px) {
-    .footer-content {
-        flex-direction: row; /* Logo y contenido en la misma fila */
-        justify-content: space-between; /* Espacio entre el logo y la información */
-        align-items: center; /* Centrar verticalmente */
-    }
-
-    .footer-info {
-        text-align: right; /* Alinear texto y links a la derecha en pantallas grandes */
-    }
-
-    .footer-links {
-        justify-content: flex-end; /* Alinear links a la derecha en pantallas grandes */
-    }
+.footer-info-container p {
+    margin: 5px 0;
 }
-
-/* --- Métodos de Pago --- */
-.payment-options {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px; /* Espacio entre los ítems de pago */
-    margin-top: 40px;
-}
-
-.payment-item {
-    display: flex;
-    flex-direction: column; /* Organiza imagen y texto en columna */
-    align-items: center;    /* Centra horizontalmente imagen y texto */
-    text-align: center;
-    max-width: 150px; /* Ancho máximo para cada ítem */
-}
-
-.payment-item img {
-    width: 100px; /* Tamaño del icono */
-    height: 100px;
-    object-fit: contain; /* Asegura que la imagen se ajuste sin distorsionarse */
-    transition: transform 0.3s ease;
-}
-
-.payment-item img:hover {
-    transform: scale(1.1); /* Efecto al pasar el mouse */
-}
-
-.payment-item p {
-    margin-top: 10px; /* Espacio entre la imagen y el texto */
-    color: white; /* Color del texto en blanco */
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-/* Estilo para el logo en el pie de página */
 
 /* ======================================= */
 /* MEDIA QUERIES PARA RESPONSIVE DESIGN    */
@@ -284,5 +222,20 @@ footer .container {
 
     .hero p {
         font-size: 1.2rem;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-info-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-links {
+        justify-content: center;
     }
 }
