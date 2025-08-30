@@ -69,6 +69,20 @@ nav ul {
     gap: 25px;
 }
 
+/* Estilo para el menú */
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Estilo para la página activa */
+nav ul li.active a {
+    color: #fff;
+    background-color: #007bff; /* Un color que haga que el link resalte */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 nav a {
     color: #333;
     text-decoration: none;
@@ -132,12 +146,84 @@ nav a:hover {
 }
 
 /* --- Footer --- */
+/* --- Footer --- */
 footer {
     background-color: #1a2a39;
     color: white;
-    text-align: center;
+    text-align: center; /* Centrar el contenido general del footer */
     padding: 1rem 0;
     border-top: 2px solid #005f73;
+    display: flex; /* Usar flexbox para organizar el contenido */
+    justify-content: center; /* Centrar el .container */
+    align-items: center;
+}
+
+footer .container {
+    display: flex; /* Contenedor interno del footer para flexbox */
+    flex-direction: column; /* Por defecto, los elementos van en columna */
+    align-items: flex-start; /* Alinear el contenido a la izquierda dentro del container */
+    width: 90%; /* Mantener el ancho del contenedor */
+    max-width: 1200px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Por defecto, logo y enlaces/info en columna */
+    align-items: flex-start; /* Alinear todo a la izquierda */
+    width: 100%;
+    gap: 20px; /* Espacio entre el logo y la información */
+}
+
+/* Estilo para el logo en el pie de página */
+.footer-logo img {
+    width: 80px; /* Tamaño del logo más pequeño */
+    height: auto;
+    margin-right: 20px; /* Espacio a la derecha del logo si está en la misma línea */
+}
+
+/* Para alinear el logo a la izquierda (aunque con flex-direction: column ya estaría) */
+.footer-logo.left-aligned {
+    text-align: left;
+    width: auto; /* Ajustar el ancho del contenedor del logo */
+}
+
+.footer-info {
+    text-align: left; /* Asegurar que el texto se alinee a la izquierda */
+}
+
+.footer-links {
+    margin-bottom: 10px;
+    display: flex; /* Para que los links estén en línea */
+    gap: 15px; /* Espacio entre los links del footer */
+    flex-wrap: wrap; /* Para que los links se ajusten en móviles */
+    justify-content: flex-start; /* Alinear los links a la izquierda */
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Query para pantallas más grandes: Logo a la izquierda, información a la derecha */
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row; /* Logo y contenido en la misma fila */
+        justify-content: space-between; /* Espacio entre el logo y la información */
+        align-items: center; /* Centrar verticalmente */
+    }
+
+    .footer-info {
+        text-align: right; /* Alinear texto y links a la derecha en pantallas grandes */
+    }
+
+    .footer-links {
+        justify-content: flex-end; /* Alinear links a la derecha en pantallas grandes */
+    }
 }
 
 /* --- Métodos de Pago --- */
@@ -174,6 +260,8 @@ footer {
     font-size: 1rem;
     font-weight: bold;
 }
+
+/* Estilo para el logo en el pie de página */
 
 /* ======================================= */
 /* MEDIA QUERIES PARA RESPONSIVE DESIGN    */
