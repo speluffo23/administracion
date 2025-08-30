@@ -157,11 +157,11 @@ footer {
 
 footer .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center; /* Centra los elementos flexibles horizontalmente */
     width: 90%;
     max-width: 1200px;
-    margin: 0 auto; /* Centra el contenedor principal */
+   justify-content: space-between; /* Centra el contenedor principal */
 }
 
 .footer-content {
