@@ -176,7 +176,7 @@ footer .container {
 .footer-logo img {
     width: 80px; /* Tamaño del logo */
     height: auto;
-    margin-bottom: 20px; /* Espacio debajo del logo */
+    margin-bottom: 30px; /* Espacio debajo del logo */
 }
 
 /* Para alinear el logo a la izquierda (aunque con flex-direction: column ya estaría) */
