@@ -168,14 +168,6 @@ footer .container {
     margin: 0 auto;
 }
 
-.footer-logo-container {
-    width: 100px; /* Cambia este valor para ajustar el espacio */
-}
-
-.footer-logo-container img {
-    width: 50px; /* Puedes cambiar este valor por uno más grande o pequeño */
-    height: auto;
-}
 
 .footer-info-container {
     text-align: right;

@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administración de Consorcio</title>
     <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="index-specific.css"> </head>
+    <link rel="stylesheet" href="index-specific.css">
+</head>
 <body>
     <div class="main-container">
         <main>
@@ -48,49 +49,42 @@
                 <div class="container">
                     <h2>Métodos de Pago</h2>
                     <div class="payment-options">
-                        
                         <div class="payment-item">
                             <a href="URL_DEL_DEBITO_AUTOMATICO">
                                 <img src="Imágenes/Pagos/Debito.png" alt="Débito Automático">
                             </a>
                             <p>Débito Automático</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DEL_DEPOSITO">
                                 <img src="Imágenes/Pagos/Deposito.png" alt="Depósito">
                             </a>
                             <p>Depósito</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DE_PAGO_FACIL">
                                 <img src="Imágenes/Pagos/pagofacil.png" alt="Pago Fácil">
                             </a>
                             <p>Pago Fácil</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DE_RAPI_PAGO">
                                 <img src="Imágenes/Pagos/rapipago.png" alt="Rapi Pago">
                             </a>
                             <p>Rapi Pago</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DE_MERCADO_PAGO">
                                 <img src="Imágenes/Pagos/mercadopago.png" alt="Mercado Pago">
                             </a>
                             <p>Mercado Pago</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DE_PAGOMISCUENTAS">
                                 <img src="Imágenes/Pagos/pagosmiscuentas.png" alt="PagoMisCuentas">
                             </a>
                             <p>PagoMisCuentas</p>
                         </div>
-
                         <div class="payment-item">
                             <a href="URL_DE_TRANSFERENCIA">
                                 <img src="Imágenes/Pagos/transferencia.png" alt="Transferencia">
@@ -102,21 +96,18 @@
             </section>
         </main>
     </div>
-<footer>
-    <div class="container">
-        <div class="footer-logo-container">
-            <img src="Imágenes/logo2.png" alt="Logo de la Empresa">
-        </div>
-        <div class="footer-info-container">
-            <div class="footer-links">
-                <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
-                <a href="politica-de-privacidad.php">Política de Privacidad</a>
-                <a href="contact.php">Contacto</a>
+        <footer>
+            <div class="container">
+                <div class="footer-info-container">
+                    <div class="footer-links">
+                        <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
+                        <a href="politica-de-privacidad.php">Política de Privacidad</a>
+                        <a href="contact.php">Contacto</a>
+                    </div>
+                    <p>&copy; 2025 Administración de Consorcio. Todos los derechos reservados.</p>
+                    <p>Teléfono: 1154612133 | Correo electrónico: jaquesus2016@gmail.com</p>
+                </div>
             </div>
-            <p>&copy; 2025 Administración de Consorcio. Todos los derechos reservados.</p>
-            <p>Teléfono: 1154612133 | Correo electrónico: jaquesus2016@gmail.com</p>
-        </div>
-    </div>
-</footer>
+        </footer>
 </body>
 </html>
