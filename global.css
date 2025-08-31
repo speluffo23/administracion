@@ -30,12 +30,20 @@ header {
     padding: 1.5rem 0;
 }
 
-header .container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
     flex-wrap: wrap;
+    padding-bottom: 20px; /* Espacio entre el logo/links y el menú */
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #c2c1c7;
+    padding: 10px 0;
+    width: 100%;
 }
 
 .logo {
@@ -48,15 +56,7 @@ header .container {
 }
 
 /* --- Menu de Navegación --- */
-.menu-container {
-    background-color: #c2c1c7;
-    padding: 10px 0;
-    width: 100%;
-    text-align: center;
-    margin-left: 50px;
-}
-
-nav ul {
+.main-nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -65,21 +65,7 @@ nav ul {
     gap: 25px;
 }
 
-/* Estilo para el menú */
-nav ul li a {
-    color: #000;
-    text-decoration: none;
-}
-
-/* Estilo para la página activa */
-nav ul li.active a {
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-
-nav a {
+.main-nav a {
     color: #333;
     text-decoration: none;
     font-size: 1.5rem;
@@ -88,14 +74,40 @@ nav a {
     transition: all 0.3s ease;
 }
 
-/* Efecto hover del menú */
-nav a:hover {
+.main-nav li.active a {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.main-nav a:hover {
     color: #333;
     background-color: rgba(224, 224, 224, 0.8);
     transform: translateY(-8px);
     padding: 5px 15px;
     border-radius: 5px;
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Enlaces de Autenticación (Iniciar Sesión/Registrarse) --- */
+.auth-links {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.auth-links a:hover {
+    background-color: #0056b3;
 }
 
 /* --- Hero Section --- */
@@ -168,6 +180,10 @@ footer .container {
     margin: 0 auto;
 }
 
+.footer-logo-container img {
+    width: 80px;
+    height: auto;
+}
 
 .footer-info-container {
     text-align: right;
@@ -199,12 +215,13 @@ footer .container {
 /* MEDIA QUERIES PARA RESPONSIVE DESIGN    */
 /* ======================================= */
 @media (max-width: 768px) {
-    .menu-container nav ul {
+    .main-nav ul {
         flex-direction: column;
         gap: 10px;
+        align-items: center;
     }
 
-    nav a {
+    .main-nav a {
         font-size: 1.2rem;
     }
 
