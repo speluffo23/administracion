@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ofrecemos servicios de administración de consorcios y gestoría automotriz en Buenos Aires, con foco en transparencia, eficiencia y comunicación efectiva.">
     <title>Administración de Consorcio</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="index-specific.css">
@@ -21,29 +22,29 @@
             </section>
 
             <section class="services">
-                <div class="container">
-                    <h2>Nuestros Servicios</h2>
-                    <div class="services-grid">
-                        <div class="service-item">
-                            <h3>Gestión Integral</h3>
-                            <p>Mantenemos su consorcio en perfecto estado, con una gestión completa de áreas comunes y mantenimiento preventivo.</p>
-                            <img src="Imágenes/Contactos/gestion.png" alt="Gestión Integral del consorcio">
-                        </div>
-                        
-                        <div class="service-item">
-                            <h3>Finanzas Transparentes</h3>
-                            <p>Garantizamos una administración clara y honesta de los recursos económicos del consorcio.</p>
-                            <img src="Imágenes/Contactos/finanzas.png" alt="Finanzas Transparentes, alcancía de cristal">
-                        </div>
+                    <div class="container">
+                        <h2>Nuestros Servicios</h2>
+                        <div class="services-grid">
+                            <div class="service-item">
+                                <h3>Gestión Integral</h3>
+                                <p>Mantenemos su consorcio en perfecto estado, con una gestión completa de áreas comunes y mantenimiento preventivo.</p>
+                                <img src="Imágenes/Contactos/gestion.png" width="200" height="200" alt="Gestión Integral del consorcio">
+                            </div>
+                            
+                            <div class="service-item">
+                                <h3>Finanzas Transparentes</h3>
+                                <p>Garantizamos una administración clara y honesta de los recursos económicos del consorcio.</p>
+                                <img src="Imágenes/Contactos/finanzas.png" width="200" height="200" alt="Finanzas Transparentes, alcancía de cristal">
+                            </div>
 
-                        <div class="service-item">
-                            <h3>Comunicación Efectiva</h3>
-                            <p>Fomentamos el diálogo abierto y constante entre la administración y los copropietarios.</p>
-                            <img src="Imágenes/Contactos/comunicacion.png" alt="Comunicación Efectiva, personas dialogando">
+                            <div class="service-item">
+                                <h3>Comunicación Efectiva</h3>
+                                <p>Fomentamos el diálogo abierto y constante entre la administración y los copropietarios.</p>
+                                <img src="Imágenes/Contactos/comunicacion.png" width="200" height="200" alt="Comunicación Efectiva, personas dialogando">
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+             </section>
         </main>
     </div>
     <footer>

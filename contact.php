@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contáctanos para obtener más información sobre nuestros servicios. Llámanos, envíanos un email o visita nuestra oficina en Buenos Aires.">
     <title>Contactos</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="stylos/contact.css">

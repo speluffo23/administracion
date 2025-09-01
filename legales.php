@@ -5,6 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conoce la información legal y los términos de servicio de nuestra administración. Consulta nuestros términos y condiciones y políticas de privacidad.">
     <title>Asesoría Legal</title>
     <link rel="stylesheet" href="global.css"> <link rel="stylesheet" href="stylos/legales.css">
 </head>
