@@ -6,7 +6,7 @@ $paginaActual = basename($_SERVER['PHP_SELF']);
     <div class="container header-container">
         <div class="logo">
             <a href="index.php">
-                <img src="Imágenes/logos/logo4.png" alt="Logo">
+                <img src="Imágenes/logos/logo5.png" alt="Logo">
             </a>
         </div>
         <div class="auth-links">
