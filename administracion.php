@@ -29,12 +29,12 @@
                     <h2>Nuestros Servicios</h2>
                     <div class="services-grid">
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/liquidacion.png" alt="Liquidación de expensas">
+                            <img src="Imágenes/consorcio/liquidacion.webp" alt="Liquidación de expensas">
                             <strong>Liquidación de expensas</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-expensas">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/mantenimiento.png" alt="Mantenimiento preventivo">
+                            <img src="Imágenes/consorcio/mantenimiento.web" alt="Mantenimiento preventivo">
                             <strong>Mantenimiento preventivo</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-mantenimiento">Ver más</button>
                         </div>
