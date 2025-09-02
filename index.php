@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ofrecemos servicios de administración de consorcios y gestoría automotriz en Buenos Aires, con foco en transparencia, eficiencia y comunicación efectiva.">
     <title>Administración de Consorcio</title>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="index-specific.css">
+    <link rel="stylesheet" href="stglobal.css">
 </head>
 <body>
     <div class="main-container">
