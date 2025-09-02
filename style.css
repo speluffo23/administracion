@@ -1,8 +1,8 @@
-/* ==================================== */
-/* ESTILOS GLOBALES Y COMPARTIDOS       */
-/* ==================================== */
+/* ===================================== */
+/* ESTILOS GLOBALES Y COMPARTIDOS        */
+/* ===================================== */
 body {
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('Imágenes/ciudad/ciudad6.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('Imágenes/ciudad/ciudad6.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('
 }
 
 /* ==================================== */
-/*           HEADER Y NAVEGACIÓN        */
+/* HEADER Y NAVEGACIÓN         */
 /* ==================================== */
 header {
     background-color: transparent;
@@ -85,7 +85,7 @@ nav a:hover {
 }
 
 /* ==================================== */
-/*           HERO SECTION              */
+/* HERO SECTION                */
 /* ==================================== */
 .hero {
     padding: 10px 20px;
@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 /* ==================================== */
-/*               SECCIÓN DE SERVICIOS   */
+/* SECCIÓN DE SERVICIOS        */
 /* ==================================== */
 .services-grid {
     display: grid;
@@ -163,7 +163,7 @@ nav a:hover {
 }
 
 /* ==================================== */
-/*          MÉTODOS DE PAGO             */
+/* MÉTODOS DE PAGO             */
 /* ==================================== */
 .payment-options, .payment-grid {
     display: flex;
@@ -200,7 +200,7 @@ nav a:hover {
 }
 
 /* ==================================== */
-/*             FOOTER                  */
+/* FOOTER                  */
 /* ==================================== */
 footer {
     background-color: #1a2a39;
@@ -209,9 +209,35 @@ footer {
     padding: 1rem 0;
     border-top: 2px solid #005f73;
 }
+/* Estilos del footer */
+.footer-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffd700;
+}
+
+.footer-info-container p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
 
 /* ==================================== */
-/*          MEDIA QUERIES              */
+/* MEDIA QUERIES               */
 /* ==================================== */
 @media (max-width: 768px) {
     .menu-container nav ul {
