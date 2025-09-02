@@ -1,5 +1,3 @@
-<?php include 'header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Obtén servicios profesionales de gestoría automotriz. Te ayudamos con trámites vehiculares de manera rápida y segura en Buenos Aires.">
     <title>Página del Mandatario</title>
-       <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="stylos/mandatario.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylos/mandatario.css">
 </head>
 <body>
+    <?php include 'header.php'; ?>
     <main>
         <section class="hero">
             <div class="container">
@@ -26,31 +24,31 @@
                 <h2>Servicio de Gestoría</h2>
                 <div class="services-grid">
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/patentamiento2.webp" alt="Patentamiento">
+                        <img src="Imágenes/Mandatario/patentamiento2.webp" alt="Patentamiento" width="100" height="100">
                         <p>Patentamiento</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/rentas.webp" alt="Rentas">
+                        <img src="Imágenes/Mandatario/rentas.webp" alt="Rentas" width="100" height="100">
                         <p>Rentas</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/transferencias.webp" alt="Transferencias">
+                        <img src="Imágenes/Mandatario/transferencias.webp" alt="Transferencias" width="100" height="100">
                         <p>Transferencias</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/altas-bajas.webp" alt="Altas Bajas Municipal">
+                        <img src="Imágenes/Mandatario/altas-bajas.webp" alt="Altas Bajas Municipal" width="100" height="100">
                         <p>Altas Bajas Municipal</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/prendas.webp" alt="Prendas">
+                        <img src="Imágenes/Mandatario/prendas.webp" alt="Prendas" width="100" height="100">
                         <p>Prendas</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/tramites.webp" alt="Trámites en Gral">
+                        <img src="Imágenes/Mandatario/tramites.webp" alt="Trámites en Gral" width="100" height="100">
                         <p>Trámites en Gral</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/presupuesto.webp" alt="Solicitar Presupuesto">
+                        <img src="Imágenes/Mandatario/presupuesto.webp" alt="Solicitar Presupuesto" width="100" height="100">
                         <p>Solicitar Presupuesto</p>
                     </div>
                 </div>
@@ -92,7 +90,7 @@
                     <p>Matricula DNRPA M202427230871405DN</p>
                     <p>Gestoría Automotor</p>
                     <p>Realizamos todos los trámites y gestión Automotor en Capital Federal y Gran Buenos Aires.</p>
-                    <a href="contact.html" class="call-to-action-btn">¡Cotizar Ahora!</a>
+                    <a href="contact.php" class="call-to-action-btn">¡Cotizar Ahora!</a>
                 </div>
             </div>
         </section>
@@ -119,6 +117,5 @@
             </div>
         </div>
     </footer>
-</footer>
 </body>
 </html>

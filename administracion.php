@@ -1,5 +1,3 @@
-<?php include 'header.php'; ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubre nuestros servicios de gestión integral y transparente para consorcios. Simplificamos las finanzas, el mantenimiento y la comunicación de tu edificio.">
     <title>Página de Administración</title>
-
-    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylos/administracion.css">
 </head>
 <body>
+    <?php include 'header.php'; ?>
     <div class="main-container">
         <main>
             <section class="hero">
@@ -22,6 +20,7 @@
                     <p>Proporcionamos un servicio profesional dirigido a todos los copropietarios, brindando soluciones efectivas a los diversos problemas que puedan surgir.</p>
                     <p>Nos esforzamos diariamente por ofrecer mejores y más variadas vías de comunicación, fomentando un vínculo constante entre los consorcista y la administración.</p>
                     <p>Nuestro servicio se fundamenta en un sistema financiero ordenado y transparente, accesible a todos los copropietarios.</p>
+                </div>
             </section>
 
             <section class="services-section">
@@ -29,27 +28,27 @@
                     <h2>Nuestros Servicios</h2>
                     <div class="services-grid">
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/liquidacion.webp" alt="Liquidación de expensas">
+                            <img src="Imágenes/consorcio/liquidacion.webp" alt="Liquidación de expensas" width="200" height="200">
                             <strong>Liquidación de expensas</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-expensas">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/mantenimiento.webp" alt="Mantenimiento preventivo">
+                            <img src="Imágenes/consorcio/mantenimiento.webp" alt="Mantenimiento preventivo" width="200" height="200">
                             <strong>Mantenimiento preventivo</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-mantenimiento">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/legal.webp" alt="Asesoramiento legal">
+                            <img src="Imágenes/consorcio/legal.webp" alt="Asesoramiento legal" width="200" height="200">
                             <strong>Asesoramiento legal</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-legal">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/deudores.webp" alt="Tratamiento de deudores">
+                            <img src="Imágenes/consorcio/deudores.webp" alt="Tratamiento de deudores" width="200" height="200">
                             <strong>Tratamiento de deudores</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-deudores">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/mas.webp" alt="Y más...">
+                            <img src="Imágenes/consorcio/mas.webp" alt="Y más..." width="200" height="200">
                             <strong>Y más...</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-mas">Ver más</button>
                         </div>
@@ -119,19 +118,19 @@
             </div>
         </div>
 
-    <footer>
-        <div class="container">
-            <div class="footer-info-container">
-                <div class="footer-links">
-                    <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
-                    <a href="politica-de-privacidad.php">Política de Privacidad</a>
-                    <a href="contact.php">Contacto</a>
+        <footer>
+            <div class="container">
+                <div class="footer-info-container">
+                    <div class="footer-links">
+                        <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
+                        <a href="politica-de-privacidad.php">Política de Privacidad</a>
+                        <a href="contact.php">Contacto</a>
+                    </div>
+                    <p>&copy; 2025 Administración de Consorcio. Todos los derechos reservados.</p>
+                    <p>Teléfono: 1154612133 | Correo electrónico: jaquesus2016@gmail.com</p>
                 </div>
-                <p>&copy; 2025 Administración de Consorcio. Todos los derechos reservados.</p>
-                <p>Teléfono: 1154612133 | Correo electrónico: jaquesus2016@gmail.com</p>
             </div>
-        </div>
-    </footer>
+        </footer>
     </div>
     <script src="JS/script.js"></script>
 </body>

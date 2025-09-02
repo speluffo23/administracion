@@ -15,7 +15,7 @@
                 <div class="container">
                     <h1>Bienvenidos</h1>
                     <p>Ofrecemos una gestión eficaz y transparente para su comunidad. Brindamos soluciones profesionales, garantizando un sistema financiero ordenado y accesible para todos.</p>
-                    <a href="administracion.html" class="cta-button">Conoce nuestros servicios</a>
+                    <a href="administracion.php" class="cta-button">Conoce nuestros servicios</a>
                 </div>
             </section>
             <section class="services">
@@ -44,9 +44,6 @@
     </div>
     <footer>
         <div class="container">
-            <div class="footer-logo-container">
-                <img src="Imágenes/logos/logo5.webp" alt="Logo de la Empresa" width="250" height="auto"> 
-            </div>
             <div class="footer-info-container">
                 <div class="footer-links">
                     <a href="terminos-y-condiciones.php">Términos y Condiciones</a>
