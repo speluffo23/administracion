@@ -34,22 +34,22 @@
                             <button class="open-modal-btn" data-modal-target="#modal-expensas">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/mantenimiento.web" alt="Mantenimiento preventivo">
+                            <img src="Imágenes/consorcio/mantenimiento.webp" alt="Mantenimiento preventivo">
                             <strong>Mantenimiento preventivo</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-mantenimiento">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/legal.png" alt="Asesoramiento legal">
+                            <img src="Imágenes/consorcio/legal.webp" alt="Asesoramiento legal">
                             <strong>Asesoramiento legal</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-legal">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/deudores.png" alt="Tratamiento de deudores">
+                            <img src="Imágenes/consorcio/deudores.webp" alt="Tratamiento de deudores">
                             <strong>Tratamiento de deudores</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-deudores">Ver más</button>
                         </div>
                         <div class="service-item">
-                            <img src="Imágenes/consorcio/mas.png" alt="Y más...">
+                            <img src="Imágenes/consorcio/mas.webp" alt="Y más...">
                             <strong>Y más...</strong>
                             <button class="open-modal-btn" data-modal-target="#modal-mas">Ver más</button>
                         </div>

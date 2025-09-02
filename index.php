@@ -28,19 +28,19 @@
                             <div class="service-item">
                                 <h3>Gestión Integral</h3>
                                 <p>Mantenemos su consorcio en perfecto estado, con una gestión completa de áreas comunes y mantenimiento preventivo.</p>
-                                <img src="Imágenes/Contactos/gestion.png" width="200" height="200" alt="Gestión Integral del consorcio">
+                                <img src="Imágenes/Contactos/gestion.webp" width="200" height="200" alt="Gestión Integral del consorcio">
                             </div>
                             
                             <div class="service-item">
                                 <h3>Finanzas Transparentes</h3>
                                 <p>Garantizamos una administración clara y honesta de los recursos económicos del consorcio.</p>
-                                <img src="Imágenes/Contactos/finanzas.png" width="200" height="200" alt="Finanzas Transparentes, alcancía de cristal">
+                                <img src="Imágenes/Contactos/finanzas.webp" width="200" height="200" alt="Finanzas Transparentes, alcancía de cristal">
                             </div>
 
                             <div class="service-item">
                                 <h3>Comunicación Efectiva</h3>
                                 <p>Fomentamos el diálogo abierto y constante entre la administración y los copropietarios.</p>
-                                <img src="Imágenes/Contactos/comunicacion.png" width="200" height="200" alt="Comunicación Efectiva, personas dialogando">
+                                <img src="Imágenes/Contactos/comunicacion.webp" width="200" height="200" alt="Comunicación Efectiva, personas dialogando">
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
     <footer>
         <div class="container">
             <div class="footer-logo-container">
-                <img src="Imágenes/logos/logo5.png" alt="Logo de la Empresa"> 
+                <img src="Imágenes/logos/logo5.webp" alt="Logo de la Empresa"> 
                 </div>
             <div class="footer-info-container">
                 <div class="footer-links">

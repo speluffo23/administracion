@@ -26,31 +26,31 @@
                 <h2>Servicio de Gestoría</h2>
                 <div class="services-grid">
                     <div class="service-item">
-                        <img src="Imágenes/patentamiento2.png" alt="Patentamiento">
+                        <img src="Imágenes/patentamiento2.webp" alt="Patentamiento">
                         <p>Patentamiento</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/rentas.png" alt="Rentas">
+                        <img src="Imágenes/Mandatario/rentas.webp" alt="Rentas">
                         <p>Rentas</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/transferencias.png" alt="Transferencias">
+                        <img src="Imágenes/Mandatario/transferencias.webp" alt="Transferencias">
                         <p>Transferencias</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/altas-bajas.png" alt="Altas Bajas Municipal">
+                        <img src="Imágenes/Mandatario/altas-bajas.webp" alt="Altas Bajas Municipal">
                         <p>Altas Bajas Municipal</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/prendas.png" alt="Prendas">
+                        <img src="Imágenes/Mandatario/prendas.webp" alt="Prendas">
                         <p>Prendas</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/tramites.png" alt="Trámites en Gral">
+                        <img src="Imágenes/Mandatario/tramites.webp" alt="Trámites en Gral">
                         <p>Trámites en Gral</p>
                     </div>
                     <div class="service-item">
-                        <img src="Imágenes/Mandatario/presupuesto.png" alt="Solicitar Presupuesto">
+                        <img src="Imágenes/Mandatario/presupuesto.webp" alt="Solicitar Presupuesto">
                         <p>Solicitar Presupuesto</p>
                     </div>
                 </div>

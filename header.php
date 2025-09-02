@@ -6,7 +6,7 @@ $paginaActual = basename($_SERVER['PHP_SELF']);
     <div class="container header-container">
         <div class="logo">
             <a href="index.php" class="flex-shrink-0">
-                <img src="Imágenes/logo2.png" alt="Logo" class="h-10 w-auto rounded-lg" width="150" height="40">
+                <img src="Imágenes/logo5.webp" alt="Logo" class="h-10 w-auto rounded-lg" width="150" height="40">
             </a>
         <div class="auth-links">
             <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>

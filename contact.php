@@ -65,19 +65,19 @@
                     <h2>Escanea y Conecta</h2>
                     <div class="qr-container">
                         <div class="qr-item">
-                            <img src="Imágenes/whatsapp.png" alt="QR WhatsApp">
+                            <img src="Imágenes/whatsapp.webp" alt="QR WhatsApp">
                             <p>WhatsApp</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/vcard.png" alt="QR VCard Contacto">
+                            <img src="Imágenes/vcard.webp" alt="QR VCard Contacto">
                             <p>Contacto (vCard)</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/MAIL.png" alt="QR Mail">
+                            <img src="Imágenes/MAIL.webp" alt="QR Mail">
                             <p>Correo Electrónico</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/Mapa.png" alt="QR Mapa">
+                            <img src="Imágenes/Mapa.webp" alt="QR Mapa">
                             <p>Ubicación</p>
                         </div>
                     </div>
