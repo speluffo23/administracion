@@ -9,7 +9,6 @@
     <title>Página del Mandatario</title>
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="stylos/mandatario.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <main>
@@ -26,7 +25,7 @@
                 <h2>Servicio de Gestoría</h2>
                 <div class="services-grid">
                     <div class="service-item">
-                        <img src="Imágenes/patentamiento2.webp" alt="Patentamiento">
+                        <img src="Imágenes/Mandatario/patentamiento2.webp" alt="Patentamiento">
                         <p>Patentamiento</p>
                     </div>
                     <div class="service-item">
