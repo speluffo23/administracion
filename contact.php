@@ -8,7 +8,7 @@
     <meta name="description" content="Contáctanos para obtener más información sobre nuestros servicios. Llámanos, envíanos un email o visita nuestra oficina en Buenos Aires.">
     <title>Contactos</title>
     <link rel="stylesheet" href="stylos/contact.css">
-<link rel="stylesheet" href="stglobal.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main-container">

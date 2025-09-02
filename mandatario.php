@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Obtén servicios profesionales de gestoría automotriz. Te ayudamos con trámites vehiculares de manera rápida y segura en Buenos Aires.">
     <title>Página del Mandatario</title>
-    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="stylos/mandatario.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
