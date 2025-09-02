@@ -1,0 +1,233 @@
+/* ==================================== */
+/* ESTILOS GLOBALES Y COMPARTIDOS       */
+/* ==================================== */
+body {
+    background-image: url('Imágenes/ciudad/ciudad6.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.main-container {
+    background-color: transparent;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ==================================== */
+/*           HEADER Y NAVEGACIÓN        */
+/* ==================================== */
+header {
+    background-color: transparent;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 250px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-container {
+    background-color: #c2c1c7;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #333;
+    background-color: rgba(224, 224, 224, 0.8);
+    transform: translateY(-8px);
+    padding: 5px 15px;
+    border-radius: 5px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ==================================== */
+/*           HERO SECTION              */
+/* ==================================== */
+.hero {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+/* ==================================== */
+/*               SECCIÓN DE SERVICIOS   */
+/* ==================================== */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.service-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+}
+
+.service-item img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-item h3 {
+    color: #c2c1c7;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #e7dada;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #005f73;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0087a3;
+    transform: scale(1.05);
+}
+
+/* ==================================== */
+/*          MÉTODOS DE PAGO             */
+/* ==================================== */
+.payment-options, .payment-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.payment-item, .payment-method {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+}
+
+.payment-item img, .payment-method img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.payment-item img:hover, .payment-method img:hover {
+    transform: scale(1.1);
+}
+
+.payment-item p {
+    margin-top: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* ==================================== */
+/*             FOOTER                  */
+/* ==================================== */
+footer {
+    background-color: #1a2a39;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #005f73;
+}
+
+/* ==================================== */
+/*          MEDIA QUERIES              */
+/* ==================================== */
+@media (max-width: 768px) {
+    .menu-container nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
