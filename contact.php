@@ -7,9 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contáctanos para obtener más información sobre nuestros servicios. Llámanos, envíanos un email o visita nuestra oficina en Buenos Aires.">
     <title>Contactos</title>
-    <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="stylos/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="stglobal.css">
 </head>
 <body>
     <div class="main-container">
