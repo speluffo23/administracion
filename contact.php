@@ -30,7 +30,7 @@
                                 <li><i class="fas fa-envelope"></i> Email: jaquesus2016@gmail.com</li>
                                 <li><i class="fas fa-phone"></i> Teléfono: (11) 54612133</li>
                                 <li><i class="fas fa-id-card"></i> CUIT: 27-23087140-5</li>
-                                <li><i class="fas fa-building"></i> RPA: 17313 // RPAC: 1475</li>
+                                <li><i class="fas fa-building"></i> RPA: 17313 // RPAC: 1475 // M202427230871405DN</li>
                                 <li><i class="fas fa-map-marker-alt"></i> Dirección: Callao 2132, Ciudad Madero, Buenos Aires, Argentina</li>
                             </ul>
                             
