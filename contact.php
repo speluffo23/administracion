@@ -36,7 +36,7 @@
                             
                             <div class="social-links">
                                 <a href="https://wa.me/+5491154612133" target="_blank" class="contact-link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-                                <a href="#" class="contact-link"><i class="fas fa-id-card"></i> vCard</a>
+                                <a href="https://q.me-qr.com/0vHn703T" target="_blank" class="contact-link"><i class="fas fa-id-card"></i> vCard</a>
                             </div>
                         </div>
 
@@ -65,19 +65,27 @@
                     <h2>Escanea y Conecta</h2>
                     <div class="qr-container">
                         <div class="qr-item">
-                            <img src="Imágenes/Contactos/QRWHATSAPP.webp" alt="QR WhatsApp" width="150" height="150">
+                            <a href="https://q.me-qr.com/bp1oPHSH" target="_blank">
+                                <img src="Imágenes/Contactos/QRWHATSAPP.webp" alt="QR WhatsApp" width="150" height="150">
+                            </a>
                             <p>WhatsApp</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/Contactos/QRVCARD.webp" alt="QR VCard Contacto" width="150" height="150">
+                            <a href="https://q.me-qr.com/0vHn703T" target="_blank">
+                                <img src="Imágenes/Contactos/QRVCARD.webp" alt="QR VCard Contacto" width="150" height="150">
+                            </a>
                             <p>Contacto (vCard)</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/Contactos/QRMAIL.webp" alt="QR Mail" width="150" height="150">
+                            <a href="https://q.me-qr.com/KJYqlZG3" target="_blank">
+                                <img src="Imágenes/Contactos/QRMAIL.webp" alt="QR Mail" width="150" height="150">
+                            </a>
                             <p>Correo Electrónico</p>
                         </div>
                         <div class="qr-item">
-                            <img src="Imágenes/Contactos/QRMAPA.webp" alt="QR Mapa" width="150" height="150">
+                            <a href="https://q.me-qr.com/yAlfTqKF" target="_blank">
+                                <img src="Imágenes/Contactos/QRMAPA.webp" alt="QR Mapa" width="150" height="150">
+                            </a>
                             <p>Ubicación</p>
                         </div>
                     </div>
