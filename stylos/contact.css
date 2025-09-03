@@ -171,7 +171,7 @@
     height: 120px;
     object-fit: contain;
     transition: transform 0.3s ease;
-    border: 2px solid #fff;
+    /*border: 2px solid #fff;*/
     border-radius: 10px;
 }
 
